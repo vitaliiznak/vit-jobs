@@ -1,0 +1,13 @@
+.index { display: flex; flex-direction: column; align-items: center }
+
+.formWrapper {
+    max-width: 500px; 
+}
+
+.editorWrapper{
+    min-height: 200px;
+}
+
+.editorField {
+    background-color: #fff;
+}

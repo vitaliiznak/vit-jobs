@@ -1,0 +1,37 @@
+{
+  "folders": [
+    {
+      "path": "packages/api"
+    },
+    {
+      "path": "packages/web"
+    },
+    {
+      "path": "infrastructure"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 4,
+
+    
+    "prettier.tslintIntegration": true,
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true
+    }
+  }
+}
