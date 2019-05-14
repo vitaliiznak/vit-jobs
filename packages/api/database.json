@@ -1,0 +1,8 @@
+{
+  "dev": {
+    "driver": "pg",
+    "database": "postgres",
+    "user": "postgres",
+    "password": "example"
+  }
+}

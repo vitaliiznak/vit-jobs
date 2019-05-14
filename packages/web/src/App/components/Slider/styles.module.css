@@ -1,29 +1,30 @@
 .navLink {
-    display: block;
-    color: rgba(255, 255, 255, 0.65);
-    padding:  14px;
-    cursor: pointer;
+  display: block;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 14px;
+  cursor: pointer;
 }
 
-:not(.navLinkActive).navLink:focus, :not(.navLinkActive).navLink:hover {
-    color: rgb(255, 255, 255);
+:not(.navLinkActive).navLink:focus,
+:not(.navLinkActive).navLink:hover {
+  color: rgb(255, 255, 255);
 }
 
-.navLinkActive{
-    color: #1999e3;
-    background: #1f2b38
+.navLinkActive {
+  color: #1999e3;
+  background: #1f2b38;
 }
 
-.navLink > i { 
-    display: block;
-    font-size: 24px;
-    margin-right: 12px;
-    margin-bottom: 10px;
+.navLink > i {
+  display: block;
+  font-size: 24px;
+  margin-right: 12px;
+  margin-bottom: 10px;
 }
 
-.navLink > span { 
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    margin-right: 12px;
+.navLink > span {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 12px;
 }

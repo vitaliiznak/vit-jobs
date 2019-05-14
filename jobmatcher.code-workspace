@@ -18,6 +18,9 @@
 
     
     "prettier.tslintIntegration": true,
+    "[css]": {
+      "editor.formatOnSave": true
+    },
     "[javascript]": {
       "editor.formatOnSave": true
     },

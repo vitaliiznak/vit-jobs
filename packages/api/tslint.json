@@ -5,6 +5,7 @@
       "options": [120]
     },
     "new-parens": true,
+    "ordered-imports": [false],
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
@@ -16,9 +17,11 @@
     },
     "semicolon": [true, "never"]
   },
+  "trailing-comma": [false, "never"],
   "jsRules": {
     "max-line-length": {
       "options": [120]
     }
-  }
+  },
+  "indent": [true, "spaces", 2]
 }

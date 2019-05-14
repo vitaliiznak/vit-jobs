@@ -1,31 +1,31 @@
-import React from "react"
+import React from 'react'
 
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { ApolloClient } from 'apollo-client'
-import { setContext } from "apollo-link-context"
-import { createHttpLink } from 'apollo-link-http'
-import { ApolloProvider } from "react-apollo"
+import { setContext } from 'apollo-link-context'
+import { ApolloProvider } from 'react-apollo'
+import { createUploadLink } from 'apollo-upload-client'
 
-import RouterMain from "./RouterMain"
+import RouterMain from './RouterMain'
 // import * as serviceWorker from "./serviceWorker"
 
-const httpLink = createHttpLink({
-  uri: "http://localhost:4000",
+const uploadLink = createUploadLink({
+  uri: process.env.REACT_APP_API_URI_BASE
 })
-const AUTH_TOKEN = ""
+const AUTH_TOKEN = ''
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem(AUTH_TOKEN)
   return {
     headers: {
       ...headers,
-      authorization: token ? `Bearer ${token}` : "",
-    },
+      authorization: token ? `Bearer ${token}` : ''
+    }
   }
 })
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  link: authLink.concat(httpLink),
+  link: authLink.concat(uploadLink)
 })
 
 const App: React.FC = () => {

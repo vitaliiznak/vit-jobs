@@ -1,0 +1,20 @@
+.editorField {
+  background-color: #efefef;
+  min-height: 180px;
+  margin-bottom: 18px;
+  padding: 10px;
+}
+
+.uploadLogo > :global(.ant-upload.ant-upload-select-picture-card) {
+  width: 170px;
+  height: 130px;
+}
+
+.uploadLogo img {
+  max-width: 170px;
+  max-height: 130px;
+}
+
+.uploadLogo img {
+  min-width: 170px;
+}

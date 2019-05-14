@@ -1,0 +1,32 @@
+.ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 90px;
+  height: 90px;
+  text-align: right;
+}
+
+.ribbon span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 22px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 120px;
+  display: block;
+  background: #79a70a;
+  background: linear-gradient(#b6c2c9 0, #b6c2c9 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 28px;
+  right: -20px;
+}

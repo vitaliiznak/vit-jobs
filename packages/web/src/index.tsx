@@ -1,7 +1,11 @@
 // import * as serviceWorker from "./serviceWorker"
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
+
+import 'ant-design-pro/dist/ant-design-pro.css' // Import whole style
+import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css'
 import './index.css'
 
 ReactDOM.render(
