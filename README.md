@@ -1,5 +1,4 @@
 # Z-Jobs
-WORK IN PROGRESS
 
 Applicant tracking system - demo, showcase project
 
